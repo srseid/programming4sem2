@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentBlackboard: {fileID: 0}
-  _serializedBlackboard: '{"_variables":{"mold":{"_name":"mold","_id":"4226f78a-394a-4961-8b20-d5f7e6de256c","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+  _serializedBlackboard: '{"_variables":{"mold":{"_value":1.0,"_name":"mold","_id":"4226f78a-394a-4961-8b20-d5f7e6de256c","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Food":{"_value":1,"_name":"Food","_id":"c5ca8f82-a596-43c7-8aaf-9d1a243f4463","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"disintegrate":{"_value":10.0,"_name":"disintegrate","_id":"1f11291f-52ad-4d4f-9dc4-32e26101088c","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
@@ -250,7 +250,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 126537937}
   _serializedVariables:
-  - _json: '{"_name":"mold","_id":"4226f78a-394a-4961-8b20-d5f7e6de256c","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+  - _json: '{"_value":1.0,"_name":"mold","_id":"4226f78a-394a-4961-8b20-d5f7e6de256c","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
   - _json: '{"_value":1,"_name":"Food","_id":"c5ca8f82-a596-43c7-8aaf-9d1a243f4463","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
@@ -274,9 +274,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"mold":{"_name":"mold","_targetVariableID":"4226f78a-394a-4961-8b20-d5f7e6de256c"},"moldCheck":1.0,"$type":"NodeCanvas.Tasks.Actions.MoldCheck"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":312.0,"y":370.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"parent":{},"clonePosition":{},"cloneRotation":{},"saveCloneAs":{"_name":"Food","_targetVariableID":"c5ca8f82-a596-43c7-8aaf-9d1a243f4463"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":1},"$type":"NodeCanvas.Tasks.Actions.InstantiateGameObject"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":585.0,"y":494.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"}],"connections":[{"_condition":{"valueA":{"_name":"mold","_targetVariableID":"4226f78a-394a-4961-8b20-d5f7e6de256c"},"valueB":{"_name":"disintegrate","_targetVariableID":"1f11291f-52ad-4d4f-9dc4-32e26101088c"},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"mold":{"_name":"mold","_targetVariableID":"4226f78a-394a-4961-8b20-d5f7e6de256c"},"$type":"NodeCanvas.Tasks.Actions.MoldCheck"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"moldy","_position":{"x":312.0,"y":370.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_value":1},"speed":{"_value":2.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":367.0,"y":510.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"parent":{},"clonePosition":{},"cloneRotation":{},"saveCloneAs":{"_name":"Food","_targetVariableID":"c5ca8f82-a596-43c7-8aaf-9d1a243f4463"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":2},"$type":"NodeCanvas.Tasks.Actions.InstantiateGameObject"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":585.0,"y":494.0},"$type":"NodeCanvas.StateMachines.ActionState"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
+  - {fileID: 145432517}
   - {fileID: 126537941}
   _boundGraphSource:
     _version: 3.33

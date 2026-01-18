@@ -7,7 +7,7 @@ namespace NodeCanvas.Tasks.Actions {
 	public class MoldCheck : ActionTask {
         public BBParameter<float> mold = 0f;
         
-        public float moldCheck = 0.1f;
+        public float moldyTimer = -0.1f;
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
@@ -23,8 +23,8 @@ namespace NodeCanvas.Tasks.Actions {
 
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {
-            mold.value += moldCheck * Time.deltaTime;
-			if (mold.value > 5f) { }
+            mold.value += moldyTimer * Time.deltaTime;
+			
         }
 
 		//Called when the task is disabled.
