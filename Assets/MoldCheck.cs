@@ -5,9 +5,9 @@ using UnityEngine;
 namespace NodeCanvas.Tasks.Actions {
 
 	public class MoldCheck : ActionTask {
-        public BBParameter<float> mold = 0;
+        public BBParameter<float> mold = 0f;
         
-        public float moldCheck = 0f;
+        public float moldCheck = 0.1f;
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
