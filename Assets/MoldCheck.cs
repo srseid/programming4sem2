@@ -5,11 +5,12 @@ using UnityEngine;
 namespace NodeCanvas.Tasks.Actions {
 
 	public class MoldCheck : ActionTask {
-        public BBParameter<float> mold = 0f;
-        public BBParameter<float> sickness = 0f;
-        //public float speed = 2f;
+        public BBParameter<float> mold;
+        //public BBParameter<float> sickness;
+        //public BBParameter<float> speed;
 
         public float moldyTimer = -0.1f;
+		public BBParameter<float> moldDuration;
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
@@ -25,18 +26,23 @@ namespace NodeCanvas.Tasks.Actions {
 
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {
-            mold.value += moldyTimer * Time.deltaTime;
-			/*
-			if(eaten)
+            mold.value +=  Time.deltaTime;
+			//if (mold.value > moldDuration.value)
 			{
-				sickness = sickness + mold.value;
+				//mold.value = mold.value;
+			}
+
+			
+			//if(eaten)
+			{
+				//sickness.value = sickness.value + mold.value;
 			}	
 
-			if(sickness > 6f)
+			//if(sickness.value >= 6f)
 			{
-				speed = speed - (0.1 * Time.deltaTime);
+				//speed.value == (0.1 * Time.deltaTime);
 			}
-			*/
+			
         }
 
 		//Called when the task is disabled.

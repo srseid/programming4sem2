@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f945e777233a59f4aba40aeca29093a6, type: 3}
+  m_Name: MoldyFood
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"mold":{"_name":"mold","_targetVariableID":"1fce3bcc-c07a-4074-95f0-b05766ef5794"},"moldyTimer":0.1,"moldDuration":{"_name":"moldDuration","_targetVariableID":"a39f88cb-1f6d-43fb-897e-294301c60e62"},"$type":"NodeCanvas.Tasks.Actions.MoldCheck"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"moldy","_position":{"x":499.032,"y":477.5826},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"log":{"_value":"Rotten!"},"overrideAgent":{"_type":"UnityEngine.Transform","_name":"Food","_targetVariableID":"d1db9171-d13d-4bc0-89d8-7344860d9ed9"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Rotten","_position":{"x":703.3013,"y":535.3333},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"}],"connections":[{"_condition":{"valueA":{"_name":"mold","_targetVariableID":"1fce3bcc-c07a-4074-95f0-b05766ef5794"},"checkType":3,"valueB":{"_name":"moldDuration","_targetVariableID":"a39f88cb-1f6d-43fb-897e-294301c60e62"},"$type":"NodeCanvas.Tasks.Conditions.CheckFloat"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"mold":{"_name":"mold","_id":"1fce3bcc-c07a-4074-95f0-b05766ef5794","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"moldDuration":{"_value":5.0,"_name":"moldDuration","_id":"a39f88cb-1f6d-43fb-897e-294301c60e62","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Food":{"_name":"Food","_id":"d1db9171-d13d-4bc0-89d8-7344860d9ed9","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.33
+    _category: 
+    _comments: 
+    _translation: {x: -25.448307, y: -294.6855}
+    _zoomFactor: 0.74801916
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}
