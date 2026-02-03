@@ -6,7 +6,39 @@ public class ClickToMove : MonoBehaviour
 {
     public NavMeshAgent navAgent;
     private InputSystem_Actions inputActions;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public LayerMask terrainLayers;
+
+
+    private void Awake()
+    {
+        inputActions = new InputSystem_Actions();
+    }
+
+    private void OnEnable()
+    {
+        inputActions.Enable();
+        inputActions.Player.Attack.performed += OnAttack;
+    }
+
+    private void OnAttack(InputAction.CallbackContext context)
+    {
+        Ray mouseRay = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+
+        if (Physics.Raycast(mouseRay, out RaycastHit hitInfo, float.MaxValue, terrainLayers))
+        {
+            navAgent.SetDestination(hitInfo.point);    
+        }
+    }
+
+    private void OnDisable()
+    {
+        inputActions.Player.Attack.performed -= OnAttack;
+        inputActions.Disable();
+    }
+
+    /*
+     * week 4 lecture notes
     void Start()
     {
         inputActions = new InputSystem_Actions();
@@ -24,4 +56,5 @@ public class ClickToMove : MonoBehaviour
             navAgent.SetDestination(hitInfo.point);
         }
     }
+    */
 }
