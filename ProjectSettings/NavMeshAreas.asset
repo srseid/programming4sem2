@@ -15,11 +15,11 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  - name: 
+  - name: Water
+    cost: 2
+  - name: Den
     cost: 1
-  - name: 
-    cost: 1
-  - name: 
+  - name: Bed
     cost: 1
   - name: Swamp
     cost: 2
@@ -29,9 +29,9 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  - name: 
+  - name: Foliage
     cost: 1
-  - name: 
+  - name: Outer Foliage
     cost: 1
   - name: 
     cost: 1
