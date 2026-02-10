@@ -648,13 +648,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510147500}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5064833, y: -4.1428967, z: 8.144146}
+  m_LocalRotation: {x: -0, y: 0.021386946, z: -0, w: 0.9997713}
+  m_LocalPosition: {x: -3.5400002, y: -4.1428967, z: 8.07}
   m_LocalScale: {x: 1, y: 1, z: 2.6726}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1711294933}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 2.451, z: 0}
 --- !u!114 &510147505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,21 +684,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_nestedFSM":{"_value":1},"exitMode":1,"_variablesMap":[{"_targetSubGraphVariableID":"b49e774c-d7db-480f-a193-b6275c692e81","_canRead":true,"_type":"UnityEngine.GameObject","_name":"water","_targetVariableID":"197956c5-baf9-418b-8c12-aab80d824bfb"},{"_targetSubGraphVariableID":"66adc0e1-54e5-42a5-a4c0-ee3e291ff1e9","_canRead":true,"_type":"UnityEngine.GameObject","_name":"den","_targetVariableID":"32b62351-3320-472a-9e76-720ec65259fb"},{"_targetSubGraphVariableID":"377edbcf-9d2f-4d07-bca3-d01d67c9aa11","_canRead":true,"_type":"UnityEngine.GameObject","_name":"bed","_targetVariableID":"df487ae0-a589-4611-b980-20af706b3ed2"},{"_targetSubGraphVariableID":"85c1e8fc-46b3-49bb-8f48-dac95295e2b8","_canRead":true,"_type":"System.Boolean","_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},{"_targetSubGraphVariableID":"7165480c-7f80-4cfd-a4e2-d260d5ccc08f","_canRead":true,"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"}],"_position":{"x":487.0,"y":204.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"speed":{"_value":2.0},"stopDistance":{"_value":0.1},"overrideAgent":{"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"$type":"NodeCanvas.Tasks.Actions.MoveTowards"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":649.0,"y":312.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"}],"connections":[{"_condition":{"valueA":{"_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"seeGreen":{"_name":"seeGreen","_id":"9a8090c9-ab24-40bf-8044-51ac644debdf","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_nestedFSM":{"_value":1},"exitMode":1,"_variablesMap":[{"_targetSubGraphVariableID":"b49e774c-d7db-480f-a193-b6275c692e81","_canRead":true,"_type":"UnityEngine.GameObject","_name":"water","_targetVariableID":"197956c5-baf9-418b-8c12-aab80d824bfb"},{"_targetSubGraphVariableID":"66adc0e1-54e5-42a5-a4c0-ee3e291ff1e9","_canRead":true,"_type":"UnityEngine.GameObject","_name":"den","_targetVariableID":"32b62351-3320-472a-9e76-720ec65259fb"},{"_targetSubGraphVariableID":"377edbcf-9d2f-4d07-bca3-d01d67c9aa11","_canRead":true,"_type":"UnityEngine.GameObject","_name":"bed","_targetVariableID":"df487ae0-a589-4611-b980-20af706b3ed2"},{"_targetSubGraphVariableID":"85c1e8fc-46b3-49bb-8f48-dac95295e2b8","_canRead":true,"_type":"System.Boolean","_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},{"_targetSubGraphVariableID":"7165480c-7f80-4cfd-a4e2-d260d5ccc08f","_canRead":true,"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"}],"_name":"Search","_position":{"x":469.0,"y":175.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"speed":{"_value":2.0},"stopDistance":{"_value":0.1},"_isDisabled":true,"overrideAgent":{"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},{"target":{"_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"speed":{"_value":2.0},"arrivalDistance":{"_value":0.1},"$type":"NodeCanvas.Tasks.Actions.ApproachAT"}]},"_color":{"r":0.4385548,"g":1.0,"b":0.3215686,"a":1.0},"_name":"move
+    to grass","_position":{"x":760.0,"y":311.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"moveSpeed":{"_value":5.0},"turnSpeed":{"_value":180.0},"stoppingDistance":{"_value":0.1},"$type":"NodeCanvas.Tasks.Actions.MoveAndRotateTowards"}]},"_color":{"r":0.1007031,"g":0.6886792,"b":0.1454655,"a":1.0},"_name":"move
+    to outer","_position":{"x":622.0,"y":463.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_nestedFSM":{},"_name":"Scout","_position":{"x":443.0,"y":466.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"3"},{"_actionList":{"executionMode":1,"actions":[{"valueA":{"_name":""},"valueB":{},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[UnityEngine.AnimationClip,
+    UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":226.0,"y":449.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_value":2},"speed":{"_value":10.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":201.0,"y":267.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"5"}],"connections":[{"_condition":{"valueA":{"_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"seePrey","_targetVariableID":"00f647e6-045d-4d6e-9156-8dd3f45828c5"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"seeGreen":{"_name":"seeGreen","_id":"9a8090c9-ab24-40bf-8044-51ac644debdf","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Grass":{"_name":"Grass","_id":"a466c9ab-4c83-45bd-af3b-b7a93690fc78","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"bed":{"_name":"bed","_id":"df487ae0-a589-4611-b980-20af706b3ed2","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"den":{"_name":"den","_id":"32b62351-3320-472a-9e76-720ec65259fb","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"water":{"_name":"water","_id":"197956c5-baf9-418b-8c12-aab80d824bfb","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}}'
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"seePrey":{"_name":"seePrey","_id":"00f647e6-045d-4d6e-9156-8dd3f45828c5","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
   - {fileID: 11400000, guid: 1cd2ea177d0821d449fa0bb59b94d37b, type: 2}
+  - {fileID: 1791515699}
   _boundGraphSource:
     _version: 3.33
     _category: 
     _comments: 
-    _translation: {x: 0, y: 0}
-    _zoomFactor: 1
+    _translation: {x: 224.3535, y: 16.854576}
+    _zoomFactor: 0.6536472
   _firstActivation: 0
   _enableAction: 0
   _disableAction: 0
@@ -1185,6 +1190,8 @@ GameObject:
   - component: {fileID: 1791515702}
   - component: {fileID: 1791515701}
   - component: {fileID: 1791515700}
+  - component: {fileID: 1791515705}
+  - component: {fileID: 1791515704}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1275,12 +1282,50 @@ Transform:
   m_GameObject: {fileID: 1791515699}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.04, y: 0.99, z: -11.5}
+  m_LocalPosition: {x: 1.46, y: 0.99, z: -11.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &1791515704
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791515699}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1791515705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791515699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5fff0fe13ea33d448108da687bedd54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navAgent: {fileID: 1791515704}
+  terrainLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1892135167
 GameObject:
   m_ObjectHideFlags: 0
