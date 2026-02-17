@@ -727,31 +727,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentBlackboard: {fileID: 0}
-  _serializedBlackboard: '{"_variables":{"purring":{"_value":1,"_name":"purring","_id":"cebcbaf7-dbc7-43f0-8da8-83fdfa215666","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
-    UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"growl":{"_value":2,"_name":"growl","_id":"d64baf5d-560f-4b3a-89fa-f7fe1f5a95aa","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
-    UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"grass":{"_value":3,"_name":"grass","_id":"83a996de-1735-418f-aac3-9b65fb81e26c","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
+  _serializedBlackboard: '{"_variables":{"purringSound":{"_value":1,"_name":"purringSound","_id":"cebcbaf7-dbc7-43f0-8da8-83fdfa215666","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
+    UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"growlSound":{"_value":2,"_name":"growlSound","_id":"d64baf5d-560f-4b3a-89fa-f7fe1f5a95aa","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
+    UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"grassSound":{"_value":3,"_name":"grassSound","_id":"83a996de-1735-418f-aac3-9b65fb81e26c","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
     UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"wiggle":{"_value":4,"_name":"wiggle","_id":"64f08b55-ad88-4780-add0-ca9bd6f3170d","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AnimationClip,
     UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"newAnimation":{"_name":"newAnimation","_id":"1a0fe6a6-8616-4853-b02c-012d6832c4f3","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Animation,
     UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Timeout":{"_value":5.0,"_name":"Timeout","_id":"edd6651d-db1a-4e54-85e3-fb85408e44ef","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
-    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"puma":{"_name":"puma","_id":"730f94a0-5fff-41e0-8ac4-242fb810dc58","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"player":{"_value":5,"_name":"player","_id":"e53b58d0-f52e-42e3-abd5-aad32f431bb6","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"grass":{"_value":6,"_name":"grass","_id":"20d7b3b3-2f86-4666-a0e8-c810cc1e5c0a","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}'
   _objectReferences:
   - {fileID: 0}
   - {fileID: 8300000, guid: 2e276adc83863204f936b8cd9d143d1d, type: 3}
   - {fileID: 8300000, guid: 737dbf289a66b384f84b000055eadf9b, type: 3}
   - {fileID: 8300000, guid: 9c3acf7445718f949aa9583e285073f3, type: 3}
   - {fileID: 7400000, guid: c351785d618592742af227d18de92ca2, type: 2}
+  - {fileID: 1791515703}
+  - {fileID: 146221461}
   _serializedVariables:
-  - _json: '{"_value":1,"_name":"purring","_id":"cebcbaf7-dbc7-43f0-8da8-83fdfa215666","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
+  - _json: '{"_value":1,"_name":"purringSound","_id":"cebcbaf7-dbc7-43f0-8da8-83fdfa215666","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references:
     - {fileID: 0}
     - {fileID: 8300000, guid: 2e276adc83863204f936b8cd9d143d1d, type: 3}
-  - _json: '{"_value":1,"_name":"growl","_id":"d64baf5d-560f-4b3a-89fa-f7fe1f5a95aa","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
+  - _json: '{"_value":1,"_name":"growlSound","_id":"d64baf5d-560f-4b3a-89fa-f7fe1f5a95aa","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references:
     - {fileID: 0}
     - {fileID: 8300000, guid: 737dbf289a66b384f84b000055eadf9b, type: 3}
-  - _json: '{"_value":1,"_name":"grass","_id":"83a996de-1735-418f-aac3-9b65fb81e26c","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
+  - _json: '{"_value":1,"_name":"grassSound","_id":"83a996de-1735-418f-aac3-9b65fb81e26c","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references:
     - {fileID: 0}
@@ -767,6 +772,19 @@ MonoBehaviour:
   - _json: '{"_value":5.0,"_name":"Timeout","_id":"edd6651d-db1a-4e54-85e3-fb85408e44ef","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
+  - _json: '{"_name":"puma","_id":"730f94a0-5fff-41e0-8ac4-242fb810dc58","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":1,"_name":"player","_id":"e53b58d0-f52e-42e3-abd5-aad32f431bb6","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references:
+    - {fileID: 0}
+    - {fileID: 1791515703}
+  - _json: '{"_value":1,"_name":"grass","_id":"20d7b3b3-2f86-4666-a0e8-c810cc1e5c0a","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references:
+    - {fileID: 0}
+    - {fileID: 146221461}
 --- !u!114 &510147507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,9 +798,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_nestedFSM":{"_value":1},"exitMode":1,"_variablesMap":[{"_targetSubGraphVariableID":"b49e774c-d7db-480f-a193-b6275c692e81","_canRead":true,"_type":"UnityEngine.GameObject","_name":"water","_targetVariableID":"197956c5-baf9-418b-8c12-aab80d824bfb"},{"_targetSubGraphVariableID":"66adc0e1-54e5-42a5-a4c0-ee3e291ff1e9","_canRead":true,"_type":"UnityEngine.GameObject","_name":"den","_targetVariableID":"32b62351-3320-472a-9e76-720ec65259fb"},{"_targetSubGraphVariableID":"377edbcf-9d2f-4d07-bca3-d01d67c9aa11","_canRead":true,"_type":"UnityEngine.GameObject","_name":"bed","_targetVariableID":"df487ae0-a589-4611-b980-20af706b3ed2"},{"_targetSubGraphVariableID":"85c1e8fc-46b3-49bb-8f48-dac95295e2b8","_canRead":true,"_type":"System.Boolean","_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},{"_targetSubGraphVariableID":"7165480c-7f80-4cfd-a4e2-d260d5ccc08f","_canRead":true,"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"}],"_name":"Search","_position":{"x":467.4701,"y":175.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"speed":{"_value":2.0},"stopDistance":{"_value":0.1},"overrideAgent":{"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"},"$type":"NodeCanvas.Tasks.Actions.MoveTowards"}]},"_color":{"r":0.4385548,"g":1.0,"b":0.3215686,"a":1.0},"_name":"move
-    to grass","_position":{"x":757.3337,"y":308.3337},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"target":2,"moveSpeed":{"_value":5.0},"turnSpeed":{"_value":180.0},"stoppingDistance":{"_value":0.1},"$type":"NodeCanvas.Tasks.Actions.MoveAndRotateTowards"},{"audioClip":{"_name":"grass","_targetVariableID":"83a996de-1735-418f-aac3-9b65fb81e26c"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":3},"$type":"NodeCanvas.Tasks.Actions.PlayAudioAtPosition"}]},"_color":{"r":0.1007031,"g":0.6886792,"b":0.1454655,"a":1.0},"_name":"move
-    to outer","_position":{"x":622.0,"y":463.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_nestedFSM":{},"_name":"Scout","_position":{"x":443.0,"y":466.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"3"},{"_actionList":{"executionMode":1,"actions":[{"audioClip":{"_name":"purring","_targetVariableID":"cebcbaf7-dbc7-43f0-8da8-83fdfa215666"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":3},"$type":"NodeCanvas.Tasks.Actions.PlayAudioAtPosition"},{"animationClip":{"_name":"wiggle","_targetVariableID":"64f08b55-ad88-4780-add0-ca9bd6f3170d"},"waitActionFinish":false,"overrideAgent":{"_type":"UnityEngine.Animation","_name":"newAnimation","_targetVariableID":"1a0fe6a6-8616-4853-b02c-012d6832c4f3"},"$type":"NodeCanvas.Tasks.Actions.PlayAnimationSimple"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":226.0,"y":449.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_value":4},"speed":{"_value":15.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},{"audioClip":{"_name":"growl","_targetVariableID":"d64baf5d-560f-4b3a-89fa-f7fe1f5a95aa"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":3},"$type":"NodeCanvas.Tasks.Actions.PlayAudioAtPosition"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":201.0,"y":267.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"5"}],"connections":[{"_condition":{"valueA":{"_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"seePrey","_targetVariableID":"00f647e6-045d-4d6e-9156-8dd3f45828c5"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"timeout":{"_name":"Timeout","_targetVariableID":"edd6651d-db1a-4e54-85e3-fb85408e44ef"},"$type":"NodeCanvas.Tasks.Conditions.Timeout"},"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"seeGreen":{"_name":"seeGreen","_id":"9a8090c9-ab24-40bf-8044-51ac644debdf","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"scanColour":{"r":0.1100628,"g":1.0,"b":0.2090084,"a":1.0},"numberOfScanCirclePoints":8,"scanRadiusBBP":{"_value":8.0},"lightTowerTargetBBP":{"_name":"grass","_targetVariableID":"20d7b3b3-2f86-4666-a0e8-c810cc1e5c0a"},"$type":"NodeCanvas.Tasks.Actions.SearchAT"}]},"_color":{"r":0.3215686,"g":1.0,"b":0.3593942,"a":1.0},"_position":{"x":457.2085,"y":203.8903},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_name":"grass","_targetVariableID":"20d7b3b3-2f86-4666-a0e8-c810cc1e5c0a"},"speed":{"_value":2.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"}]},"_color":{"r":0.4385548,"g":1.0,"b":0.3215686,"a":1.0},"_name":"move
+    to grass","_position":{"x":757.3337,"y":308.3337},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"target":1,"moveSpeed":{"_value":5.0},"turnSpeed":{"_value":180.0},"stoppingDistance":{"_value":0.1},"$type":"NodeCanvas.Tasks.Actions.MoveAndRotateTowards"},{"audioClip":{"_name":"grassSound","_targetVariableID":"83a996de-1735-418f-aac3-9b65fb81e26c"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":2},"$type":"NodeCanvas.Tasks.Actions.PlayAudioAtPosition"}]},"_color":{"r":0.1007031,"g":0.6886792,"b":0.1454655,"a":1.0},"_name":"move
+    to outer","_position":{"x":622.0,"y":463.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":1,"actions":[{"scanColour":{"r":0.754717,"g":0.4632672,"b":0.1685059},"numberOfScanCirclePoints":8,"scanRadiusBBP":{"_value":8.0},"lightTowerTargetBBP":{"_name":"player","_targetVariableID":"e53b58d0-f52e-42e3-abd5-aad32f431bb6"},"scanLayer":{"value":256},"scanDuration":2.0,"$type":"NodeCanvas.Tasks.Actions.SearchAT"}]},"_color":{"r":0.9371068,"g":0.5668287,"b":0.1915469,"a":1.0},"_position":{"x":457.2084,"y":643.1249},"$type":"NodeCanvas.StateMachines.ActionState","$id":"3"},{"_actionList":{"executionMode":1,"actions":[{"audioClip":{"_name":"purringSound","_targetVariableID":"cebcbaf7-dbc7-43f0-8da8-83fdfa215666"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":2},"$type":"NodeCanvas.Tasks.Actions.PlayAudioAtPosition"},{"animationClip":{"_name":"wiggle","_targetVariableID":"64f08b55-ad88-4780-add0-ca9bd6f3170d"},"waitActionFinish":false,"overrideAgent":{"_type":"UnityEngine.Animation","_name":"newAnimation","_targetVariableID":"1a0fe6a6-8616-4853-b02c-012d6832c4f3"},"$type":"NodeCanvas.Tasks.Actions.PlayAnimationSimple"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":226.0,"y":449.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_actionList":{"actions":[{"audioClip":{"_name":"growlSound","_targetVariableID":"d64baf5d-560f-4b3a-89fa-f7fe1f5a95aa"},"overrideAgent":{"_type":"UnityEngine.Transform","_value":2},"$type":"NodeCanvas.Tasks.Actions.PlayAudioAtPosition"},{"target":{"_value":3},"speed":{"_value":15.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},{"overrideAgent":{"_type":"UnityEngine.Transform","_name":"player","_targetVariableID":"e53b58d0-f52e-42e3-abd5-aad32f431bb6"},"$type":"NodeCanvas.Tasks.Actions.DestroyGameObject"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":87.54055,"y":252.3963},"$type":"NodeCanvas.StateMachines.ActionState","$id":"5"},{"_nestedFSM":{"_value":4},"exitMode":1,"_variablesMap":[{"_targetSubGraphVariableID":"b49e774c-d7db-480f-a193-b6275c692e81","_canRead":true,"_type":"UnityEngine.GameObject","_name":"water","_targetVariableID":"197956c5-baf9-418b-8c12-aab80d824bfb"},{"_targetSubGraphVariableID":"66adc0e1-54e5-42a5-a4c0-ee3e291ff1e9","_canRead":true,"_type":"UnityEngine.GameObject","_name":"den","_targetVariableID":"32b62351-3320-472a-9e76-720ec65259fb"},{"_targetSubGraphVariableID":"377edbcf-9d2f-4d07-bca3-d01d67c9aa11","_canRead":true,"_type":"UnityEngine.GameObject","_name":"bed","_targetVariableID":"df487ae0-a589-4611-b980-20af706b3ed2"},{"_targetSubGraphVariableID":"85c1e8fc-46b3-49bb-8f48-dac95295e2b8","_canRead":true,"_type":"System.Boolean","_name":"seeGreen","_targetVariableID":"9a8090c9-ab24-40bf-8044-51ac644debdf"},{"_targetSubGraphVariableID":"7165480c-7f80-4cfd-a4e2-d260d5ccc08f","_canRead":true,"_type":"UnityEngine.Transform","_name":"Grass","_targetVariableID":"a466c9ab-4c83-45bd-af3b-b7a93690fc78"}],"_name":"Search","_position":{"x":509.0345,"y":13.23581},"$type":"NodeCanvas.StateMachines.NestedFSMState"},{"_nestedFSM":{},"_name":"Scout","_position":{"x":109.3613,"y":670.452},"$type":"NodeCanvas.StateMachines.NestedFSMState"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"seeGreen":{"_name":"seeGreen","_id":"9a8090c9-ab24-40bf-8044-51ac644debdf","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Grass":{"_value":5,"_name":"Grass","_id":"a466c9ab-4c83-45bd-af3b-b7a93690fc78","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"bed":{"_value":6,"_name":"bed","_id":"df487ae0-a589-4611-b980-20af706b3ed2","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"den":{"_value":7,"_name":"den","_id":"32b62351-3320-472a-9e76-720ec65259fb","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
@@ -791,10 +809,10 @@ MonoBehaviour:
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
-  - {fileID: 11400000, guid: 1cd2ea177d0821d449fa0bb59b94d37b, type: 2}
   - {fileID: 266609170}
   - {fileID: 510147504}
   - {fileID: 1791515699}
+  - {fileID: 11400000, guid: 1cd2ea177d0821d449fa0bb59b94d37b, type: 2}
   - {fileID: 146221461}
   - {fileID: 854172688}
   - {fileID: 331287619}
@@ -803,8 +821,8 @@ MonoBehaviour:
     _version: 3.33
     _category: 
     _comments: 
-    _translation: {x: -139, y: -82}
-    _zoomFactor: 1
+    _translation: {x: 404.18594, y: 72.12417}
+    _zoomFactor: 0.46010157
   _firstActivation: 0
   _enableAction: 0
   _disableAction: 0
@@ -920,8 +938,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733664484}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.21715052, y: 0.0054635154, z: -0.0011897759, w: -0.9761221}
-  m_LocalPosition: {x: 3.5894425, y: 11.119311, z: -20.044575}
+  m_LocalRotation: {x: 0.6513689, y: 0.004042994, z: -0.0034529953, w: 0.7587426}
+  m_LocalPosition: {x: 1.931463, y: 44.81045, z: -5.044342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1171,62 +1189,13 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 6aca5abab8fed374a90bfd4958b8c98b, type: 2}
   m_BuildHeightMesh: 0
---- !u!1 &942842179
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 942842180}
-  - component: {fileID: 942842181}
-  m_Layer: 7
-  m_Name: bush (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &942842180
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942842179}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.139, y: -1.12, z: 0.325}
-  m_LocalScale: {x: 6, y: 0.85239804, z: 6}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 25315933}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &942842181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942842179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_Size: {x: 0.13, y: 3, z: 0.16}
-  m_Center: {x: 0, y: 1, z: -0.06}
-  m_Area: 12
-  m_AffectedAgents: ffffffff
---- !u!43 &1073134329
+--- !u!43 &926287928
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-30428
+  m_Name: pb_Mesh-30428(Clone)
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1385,6 +1354,55 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &942842179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942842180}
+  - component: {fileID: 942842181}
+  m_Layer: 7
+  m_Name: bush (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &942842180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942842179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.139, y: -1.12, z: 0.325}
+  m_LocalScale: {x: 6, y: 0.85239804, z: 6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 25315933}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942842181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942842179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_Size: {x: 0.13, y: 3, z: 0.16}
+  m_Center: {x: 0, y: 1, z: -0.06}
+  m_Area: 12
+  m_AffectedAgents: ffffffff
 --- !u!1 &1174527247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,7 +1467,6 @@ GameObject:
   - component: {fileID: 1585775590}
   - component: {fileID: 1585775589}
   - component: {fileID: 1585775594}
-  - component: {fileID: 1585775595}
   m_Layer: 0
   m_Name: Prism
   m_TagString: Untagged
@@ -1479,7 +1496,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585775587}
-  m_Mesh: {fileID: 1073134329}
+  m_Mesh: {fileID: 926287928}
 --- !u!23 &1585775590
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1487,7 +1504,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585775587}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1723,7 +1740,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 1073134329}
+  m_Mesh: {fileID: 926287928}
   m_VersionIndex: 15
   m_IsSelectable: 1
   m_SelectedFaces: 
@@ -1750,21 +1767,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1073134329}
---- !u!114 &1585775595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585775587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aa8d7d70e1fed749bef859af4d7ea50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seeGreen: 0
-  seePrey: 0
+  m_Mesh: {fileID: 926287928}
 --- !u!1 &1711294929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,7 +1793,7 @@ Transform:
   m_GameObject: {fileID: 1711294929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4535167, y: 1.03, z: 15.19}
+  m_LocalPosition: {x: -1.4535167, y: 1.03, z: 18.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
